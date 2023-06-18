@@ -1,0 +1,2 @@
+!function(){function e(e){return e&&e.__esModule?e.default:e}var t={};Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){return e&&e.constructor===Symbol?"symbol":typeof e};var n=document.querySelector(".form");function u(e,t){Math.random()}n.addEventListener("submit",(function(e){e.preventDefault();for(var t=n.elements,r=t.delay,o=t.step,a=t.amount,l=0;l<Number(a.value);l+=1){var d=Number(r.value)+Number(o.value)*l;u(l+1,d).then()}})),console.dir(void 0===n?"undefined":e(t)(n))}();
+//# sourceMappingURL=03-promises.63bef3d9.js.map
