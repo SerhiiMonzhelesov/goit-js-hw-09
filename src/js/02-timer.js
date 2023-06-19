@@ -28,20 +28,10 @@ const fp = flatpickr(elements.calendar, {
   },
 });
 
-// let idTimerChoice = null;
 let idTimerPeriod = null;
 elements.btnStartTimer.disabled = true;
 
-// elements.calendar.addEventListener('input', () => {
-//   return (idTimerChoice = setInterval(() => {
-//     new Date(fp.selectedDates).getTime() > new Date().getTime()
-//       ? (elements.btnStartTimer.disabled = false)
-//       : (elements.btnStartTimer.disabled = true);
-//   }, 500));
-// });
-
 elements.btnStartTimer.addEventListener('click', () => {
-  // clearInterval(idTimerChoice);
   if (new Date(fp.selectedDates).getTime() > Date.now()) {
     elements.calendar.disabled = true;
     elements.btnStartTimer.disabled = true;
