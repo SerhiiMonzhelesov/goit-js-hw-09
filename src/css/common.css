@@ -73,3 +73,15 @@ input#datetime-picker{
   display: flex;
     align-items: center;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.js-btn-promise{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
